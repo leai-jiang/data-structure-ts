@@ -1,2 +1,8 @@
-# jds
-The notes and demostrates of javascript data structure
+# Remind
+Please add the path of module you have created for `tsconfig.json - include`
+
+# Test
+run `gulp test`
+
+# Build
+Just run `gulp`

@@ -1,0 +1,20 @@
+{
+  "name": "data-structure-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp"
+  },
+  "author": "leai",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-typescript": "^5.0.1",
+    "mocha": "^6.2.0",
+    "typescript": "^3.5.3"
+  }
+}
