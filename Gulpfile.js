@@ -20,7 +20,7 @@ gulp.task("test", () => {
   return exec("mocha */*.test.js", (err, stdout, stderr) => {
     if (err) console.error(err);
     if (stdout) console.log(stdout);
-    if (stderr) console.error(stderr)
+    if (stderr) console.error(stderr);
   })
 })
 
