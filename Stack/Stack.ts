@@ -5,8 +5,7 @@ export class Stack<T> {
 
   // 入栈
   push(element: T): T {
-    this.arr.push(element);
-    this.top++;
+    this.arr[this.top++] = element;
     return element;
   }
 
@@ -32,5 +31,9 @@ export class Stack<T> {
 
   size(): number {
     return this.top;
+  }
+
+  toString(): string {
+    return "[Stack] " + this.arr.splice(0, this.top).join(",");
   }
 }
