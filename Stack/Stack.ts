@@ -17,6 +17,7 @@ export class Stack<T> {
     return null;
   }
 
+  // 查看栈顶节点
   peek(): T | null {
     if (this.top > 0) {
       return this.arr[this.top - 1];
@@ -26,7 +27,6 @@ export class Stack<T> {
 
   clear() {
     this.top = 0;
-    this.arr = [];
   }
 
   size(): number {
