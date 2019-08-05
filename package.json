@@ -4,17 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test",
-    "build": "gulp"
+    "test": "mocha -r ts-node/register */*.test.ts",
+    "compile": "gulp"
   },
   "author": "leai",
   "license": "ISC",
   "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
     "gulp-typescript": "^5.0.1",
     "mocha": "^6.2.0",
+    "ts-node": "^8.3.0",
     "typescript": "^3.5.3"
   }
 }
