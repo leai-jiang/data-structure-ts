@@ -115,6 +115,6 @@ export default class DoublyLinkedList<T> {
         str += ',' + current.element;
         current = current.next;
     }
-    return str;
+    return "[DoublyLinkedList] " + str;
   }
 }
